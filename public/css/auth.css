@@ -1,0 +1,20 @@
+.password-group {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.password-group #togglePassword {
+    position: absolute;
+    right: 14px;
+    font-size: 18px;
+}
+
+.password-group #togglePassword i {
+    cursor: pointer;
+    display: none;
+}
+
+.password-group input {
+    padding-right: 40px !important;
+}

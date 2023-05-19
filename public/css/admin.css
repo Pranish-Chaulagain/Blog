@@ -1,0 +1,127 @@
+.sidebar-links li a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sidebar-links li a span {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.sidebar-links li .collapse ul li a {
+  text-decoration: none;
+}
+
+.admin-search-bar {
+  width: 400px;
+}
+
+.blog-table-container {
+    width: 100%;
+    height: 100%;
+    padding: 5px 0 10px 0;
+    box-shadow: 0px 1px 5px #dadada;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.blog-table-container table {
+    width: 100%;
+}
+
+.blog-table-container table th {
+    padding: 20px 10px;
+    text-align: start;
+}
+
+.blog-table-container table td {
+    padding: 10px 10px;
+    text-align: start;
+}
+
+.blog-table-container table td img {
+    height: 40px;
+    width: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.blog-table-container table thead {
+    border-bottom: 1px solid #eaeaef;
+}
+
+.blog-table-container table tr {
+    border-bottom: 1px solid #eaeaef;
+}
+
+.blog-table-container table tr:last-child {
+    border: none;
+}
+
+.blog-table-container table td span {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.blog-table-container table td span a {
+    font-size: 14px;
+    color: #212529c7;
+}
+
+.go-back {
+    width: max-content;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.go-back i {
+    font-size: 23px;
+}
+
+.blog-form-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.image-uploader {
+    background: #f6f6f9;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+    flex-direction: column;
+}
+
+.image-uploader input[type="file"] {
+    display: none;
+}
+
+.image-uploader label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    cursor: pointer;
+}
+
+.image-uploader label i {
+    color: #4945ff;
+    font-size: 30px;
+}
+
+img[src=""] {
+    display: none;
+}
+
+.image-uploader img {
+    width: 300px;
+    height: 100%;
+    object-fit: cover;
+}
